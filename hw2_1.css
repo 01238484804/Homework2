@@ -1,0 +1,43 @@
+.wrap {
+			background-color: orange;
+			width: 700px;
+			height: 550px;
+			margin: 0 auto;
+		}
+		.block1  {
+			text-align: center;
+			font-size: x-large;
+			color: white;
+			padding-top: 20px;
+			margin-bottom: 20px;
+		}
+		.block2 {
+			background-color: antiquewhite;
+			height: 400px;
+			margin-left: 60px;
+			margin-right: 60px;
+			padding-top: 20px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.wrap .block2 span, .wrap .block2 input, .wrap .block2 h2, .wrap .block2 div {
+			/*display: block;*/
+			width: 100%;
+
+		}
+		.wrap .block2 input {
+			width: 99%
+		}
+		h2 {
+			text-align: center;
+			color: white;
+			background-color: green;
+		}
+		h2 +div {
+			text-align: center;
+			font-size: x-large;
+		}
+		.block2 form > span {
+			/*color: red;*/
+
+		}
